@@ -1,0 +1,412 @@
+/* CSS Document */
+body, html{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3{
+	font-family: 'Anton', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: white;
+	
+	
+}
+h2{
+	font-family: 'Anton', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #EF7B45;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 100px;
+	
+	
+}
+h1 .font-color{
+	color: #EF7B45;
+	
+}
+
+
+p, a{
+	color: #4D4D4D;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	
+}
+i{
+	position: relative;
+	padding: 10px;
+	font-size: 30px;
+	margin: 0;
+	color: white;
+
+	
+}
+.header{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url("Bilder/verkleinert/Lukas Lehmann Fotograf Furtwangen.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: 0%;
+}
+
+.header img{
+	height: 100vh;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.header h1{
+	font-size: 7em;
+	
+}
+.text-div p{
+	text-align: center;
+	top: -40px;
+	position: relative;
+	color:white;
+}
+
+.text-div{
+	position: absolute;
+	left: 10%;
+	top: 25%
+}
+
+.zusatz-grid{
+	position: absolute;
+	bottom: 10px;;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	width: 100%;
+	
+}
+.zusatz-grid p{
+	color: white;
+}
+
+.zusatz-grid-item{
+	display: flex;
+	flex-direction: row;
+	  align-items: center;
+  justify-content: center;
+	
+}
+.zusatz-grid-item img{
+	height: 40px;
+	width: auto;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 0.7;
+}
+
+.header-cta{
+	display: flex;
+	flex-direction: column;
+	  align-items: center;
+  justify-content: center;
+	
+}
+
+.header-cta p{
+	margin: 0;
+}
+.header-cta i{
+	padding: 0;
+}
+
+
+.galerie-grid{
+position: relative;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: max-content;
+	width: 100%;
+	
+}
+
+.galerie-grid-item img{
+		display: grid;
+	  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+
+	
+}
+
+.galerie-grid-item{
+	padding: 40px;	
+	justify-self: center;
+	
+	place-self: center;
+}
+
+.onespan{
+	grid-column-end: span 1;
+	grid-row-end: span 1;
+	
+}
+.twospan{
+	grid-column-end: span 2;
+	grid-row-end: span 1;
+	
+}
+video{
+	 object-fit: contain;
+  max-width: 90%;
+  max-height: 90%;
+	justify-self: center;
+	place-self: center;
+	grid-column-end: span 2;
+	grid-row-end: span 1;
+	
+	
+}
+
+.kunden{
+	position: relative;
+	width: 100%;
+}
+
+.kunden-grid{
+	position: relative;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-rows: max-content;
+	width: 100%;
+	margin-bottom: 100px;
+	
+}
+
+.kunden-grid img{
+		display: grid;
+	  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+		justify-self: center;
+	place-self: center;
+	width: 50%;
+}
+
+.testimonial-grid{
+	
+	position: relative;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: max-content;
+	
+padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 50px;
+	
+	
+}
+
+.testi-bild img{
+	border-radius: 50%;
+	
+}
+
+.testi-bild{
+	justify-self: center;
+	
+	place-self: center;
+}
+
+.testi-bild p{
+	text-align: center;
+}
+
+.testi-text{
+	padding-left: 80px;
+	justify-self: center;
+	place-self: center;
+	padding-bottom: 50px;
+	
+}
+.testi-text i{
+	color:#4D4D4D;
+	font-size: 4em;
+	opacity: 0.3;
+}
+
+.testi-text p{
+	z-index: 1;
+	
+	
+}
+.fa-quote-right{
+	position: absolute;
+	z-index: -1;
+	transform: translate(-40px, -30px);
+}
+
+.fa-quote-left{
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	transform: translate(-350px, -70px);
+}
+
+.kontakt-grid{
+	
+	position: relative;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: max-content;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+
+.kontakt-grid img{
+		display: grid;
+	  object-fit: contain;
+  max-width: 60%;
+  max-height: 100%;
+float: right;
+	position: relative;
+
+	
+}
+
+.kontakt-left, .kontakt-right{
+	padding: 40px;	
+	justify-self: center;
+	
+	place-self: center;
+}
+
+.kontakt-grid h3{
+	color: #4D4D4D;
+	font-size: 3em
+}
+
+.kontakt-right{
+	padding-right: 20%
+}
+
+
+.button {
+	text-align: center;
+	margin-top: 50px;
+}
+.button a{
+	
+	background-color: #EF7B45;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+
+
+@media (max-width: 986px) {
+
+.galerie-grid{
+	grid-template-columns: 50% 50%;
+}
+	.galerie-grid-item{
+	padding: 10px;	
+
+}
+	.kunden-grid img{
+	
+	width: 80%;
+}
+	
+	.testimonial-grid{
+	
+
+	grid-template-columns: 100%;
+
+	
+}
+	
+	
+}
+.kunden-grid{
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.kontakt-grid{
+	grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+
+@media (max-width: 697px) {
+	
+	.galerie-grid{
+	grid-template-columns: 100%;
+}
+	.galerie-grid-item{
+	padding: 10px;	
+
+}
+	
+	.sec-row{
+		display: none;
+	}
+	.kunden-grid img{
+	
+	width: 80%;
+}
+	
+	.testimonial-grid{
+	
+
+	grid-template-columns: 100%;
+
+	
+}
+	
+	.about p{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+.kunden-grid{
+	grid-template-columns:100%;
+}
+
+.kontakt-grid{
+	grid-template-columns: 100%;
+}
+
+	.kontakt-grid img{
+		display: none;
+	}
+	.kontakt-right{
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 0;
+		margin-top: -50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
