@@ -378,16 +378,24 @@ float: right;
 .header img{
 	height: 100vh;
 	top: 0;
-	right: 0;
+	right: -180px;
 	position: absolute;
 }
 
 .header h1{
 	font-size: 4em;
-	
+	line-height: 1.2
 }
+	.header p{
+		text-align: left;
+		margin-top: 40px;
+		
+		
+	}
 
-
+	.text-div{
+		top: 45%;
+	}
 
 	
 	.galerie-grid{
