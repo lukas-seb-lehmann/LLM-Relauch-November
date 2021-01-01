@@ -323,6 +323,32 @@ float: right;
 	font-size: 1.2em;
 }
 
+
+
+.footer{
+	width: 100%;
+	background-color: rgba(126,126,126,0.64);
+	margin-top: 10%;
+}
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.footer-item{
+	width: 33.33%;
+	text-align: center;
+	
+}
+
+#recht{
+	padding: 15%;
+}
+
+
+
 @media (max-width: 1500px) {
 .ueber-grid{
 position: relative;
@@ -407,6 +433,26 @@ padding: 0;
 .kontakt-left{
 	padding: 0;
 	float: none;
+}
+	#recht{
+	padding: 15%;
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 100vw;
+		position: relative;
+}
+	
+	#recht h2, #recht h3{
+		font-size: 30px;
+	}
+	
+	.footer-container{
+	
+	flex-direction: column;
+	}
+		
+.footer-item{
+	width: 100%;
 }
 }
 
