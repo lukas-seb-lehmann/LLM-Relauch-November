@@ -3,7 +3,7 @@ body, html{
 	padding: 0;
 	margin: 0;	
 	width: 100%;
-		overflow: hidden;
+		
 }
 
 h1,h2,h3{
@@ -49,11 +49,11 @@ i{
 .header{
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url("Bilder/verkleinert/Lukas Lehmann Fotograf Furtwangen.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-image: url("Bilder/verkleinert/Lukas Lehmann Fotograf Furtwangen-portrait.png"), url("Bilder/verkleinert/Lukas Lehmann Fotograf Furtwangen.jpg");
+	background-size: cover ,cover;
+	background-repeat: no-repeat, no-repeat;
 	overflow: hidden;
-	background-position: 0%;
+	background-position: 300px 0% ,0%;
 }
 
 .header-portrait{
@@ -343,6 +343,15 @@ position: relative;
 		top: 45%;
 	}
 }
+@media (max-width: 1024px){
+	
+	.header{
+	
+ background-position: center, 0%;
+	 
+
+}
+}
 
 @media (max-width: 986px) {
 
@@ -413,7 +422,17 @@ padding: 0;
 	
 	
 }
+	h2{
+		font-size: 3.4em;
+	}
 	
+	.text-div p{
+		font-size: 1.2em;
+		
+	}
+	.header i{
+		display: none;
+	}
 .zusatz-grid p{
 	
 	font-size: 1em;
@@ -470,7 +489,12 @@ padding: 0;
 	.text-div{
 		top: 45%;
 	}
+.ueber-grid{
 
+	grid-template-columns: 100%;
+	
+	
+}
 	
 	.galerie-grid{
 	grid-template-columns: 100%;
@@ -529,13 +553,11 @@ padding: 0;
 
 
 @media (max-width: 500px) {
-	.header-portrait {
-	height: 100vh;
-	top: 0;
-	right: -300px;
-	position: absolute;
-	overflow: hidden;
-	
+	.button a{
+		font-size: 1em;
+		width: 90%;
+		position: relative;
+	}
 }
 
 
