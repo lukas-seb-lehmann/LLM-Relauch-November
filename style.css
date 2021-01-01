@@ -263,10 +263,10 @@ padding-left: 20%;
 }
 
 .fa-quote-left{
-	position: absolute;
+	position: relative;
 	z-index: -1;
 	right: 0;
-	transform: translate(-350px, -70px);
+	transform: translate(400px, -70px);
 }
 
 .kontakt-grid{
