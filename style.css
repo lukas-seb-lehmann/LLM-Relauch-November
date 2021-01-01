@@ -489,6 +489,15 @@ padding: 0;
 	.text-div{
 		top: 45%;
 	}
+	
+	.testi-bild img{
+width: 50%;
+		left: 50%;
+		position: relative;
+		transform: translate(-50%);
+	
+}
+
 .ueber-grid{
 
 	grid-template-columns: 100%;
@@ -545,6 +554,8 @@ padding: 0;
 	}
 .kontakt-grid h3{
 	text-align: center;
+	margin-top: 50px;
+	line-height: 1;
 	}
 
 }
