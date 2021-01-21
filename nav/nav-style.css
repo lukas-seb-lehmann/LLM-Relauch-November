@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+}
+p,a{
+	font-family: 'Poppins', sans-serif;
+	font-style: none;
+	text-decoration: none;
+	color: rgba(62,62,62,1.00)
+}
+
+.grid-container{
+		position: absolute;
+	
+	display: grid;
+	grid-template-columns: 50% 50%;
+		
+	width: 70%;
+	height: 100%;
+	left: 50%;
+	
+	transform: translate(-50%, 0%);
+	
+	
+}
+
+.links-grid{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.links-grid a{
+	padding: 15px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: rgba(62,62,62,0.50);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 70%;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%)
+}
+
+.picture-grid{
+	align-self: center;
+	
+}
+
+.picture-grid img{
+	display: grid;
+	  object-fit: contain;
+  max-width: 70%;
+  max-height: 70%;
+	border-radius:500px;
+	left: 50%;
+	transform: translateX(-50%);
+ 
+	position: relative;
+	
+}
+
+
+@media (max-width: 1250px) {
+	
+	.grid-container{
+		width: 90%;
+	}
+}
+
+
+
+
+@media (max-width: 689px) {
+	
+	.grid-container{
+		width: 100%;
+		grid-template-columns: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
