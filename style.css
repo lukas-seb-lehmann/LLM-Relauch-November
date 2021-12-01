@@ -209,6 +209,126 @@ video{
 	width: 50%;
 }
 
+
+.produkte-grid {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 150px;
+	
+	
+	
+}
+.produkte-grid-item{
+	padding-left:5%;
+	padding-right: 5%;
+	flex-grow: 1;
+	width: 25%;
+}
+.produkte-grid-item img{
+left: 50%;
+position: relative;
+	transform: translate(-50%,0%);
+	max-width:100%;
+}
+
+@media (max-width: 1168px){
+	
+	.produkte-grid {
+
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 100px;
+	
+	
+	
+}
+}
+	
+@media (max-width: 950px){
+	
+	.produkte-grid {
+
+flex-direction: column;
+	
+	
+	
+}
+	.produkte-grid-item{
+	padding-left:5%;
+	padding-right: 5%;
+	flex-grow: 1;
+	width: 90%;
+}
+	
+}
+
+
+.filme-grid {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 50px;
+	
+	
+	
+}
+.filme-grid-item{
+	padding-left:5%;
+	padding-right: 5%;
+	flex-grow: 1;
+	width: 50%;
+	
+	position: relative;
+}
+.filme-grid-item iframe{
+left: 50%;
+position: relative;
+	transform: translate(-50%,0%);
+	max-width:100%;
+	
+}
+
+@media (max-width: 1168px){
+	
+	.filme-grid {
+
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 100px;
+	
+	
+	
+}
+}
+	
+@media (max-width: 950px){
+	
+	.filme-grid {
+
+flex-direction: column;
+	
+
+	
+}	
+	.filme-grid-item iframe{
+		height: 300px!important;
+	}
+	
+	.filme-grid-item{
+	padding-left:5%;
+	padding-right: 5%;
+	flex-grow: 1;
+	width: 90%;
+}
+	
+}
+
+
 .testimonial-grid{
 	
 	position: relative;
@@ -315,12 +435,13 @@ float: right;
 .button a{
 	
 	background-color: #EF7B45;
-	padding: 10px;
+	padding: 5px;
 	padding-right: 20px;
 	padding-left: 20px;
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
+	line-height: 2;
 }
 
 
