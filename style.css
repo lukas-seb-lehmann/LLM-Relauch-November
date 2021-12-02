@@ -742,6 +742,81 @@ width: 50%;
 }
 
 
+/*Cookie banner*/
+.cookie-container{
+	display: none;
+	background-color:#EF7B45;
+	color: #424242;
+	width: 80%;
+	position: fixed;
+	bottom: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	transform: translate(50%, 0);
+	right: 50%;
+}
+
+.cookie-container a{
+	color: white;
+}
+
+.active{
+	display: block!important;
+}
+
+.btn-flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-anpassen {
+	color: white;
+	font-size: 20px;
+	text-decoration: underline white;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn-zustimmen {
+	background-color: #424242;
+	text-align: center;
+	color: white;
+	width: 200px;
+	font-size: 30px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+@media (max-width:550px){
+	.cookie-container a{
+	color: white;
+		font-size: 13px;
+}
+	.btn-anpassen {
+	color: white;
+	font-size: 13px;
+	text-decoration: underline white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-zustimmen {
+	background-color: #424242;
+	text-align: center;
+	color: white;
+	width: 200px;
+	font-size: 20px;
+	padding: 10px;
+}
+	.cookie-container p{
+		font-size: 13px;
+	}
+}
 
 
 
